@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Created by Taejun Jang(301228129) - Created on April, 10th, 2022 -->
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>COMP213 - Individual project</title>
+        <meta content="Individual project, COMP 213" name="keywords">
+        <meta content="Real estate agent webpage ." name="description">
+        <link href="Project.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="Untitled.png" alt="mainLogo" width="150" height="150" style="float: left;">
+                <h1>Sutton Group-Admiral Realty Inc.</h1>
+            </header>
+            <nav>
+                <ul class="topNav">
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="listing.html">Listing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="SiteMap.html">Site map</a></li>    
+                </ul>
+            </nav>
+            <section>
+                <h2>Make your dreams come true with the wonderful place</h2>
+            </section>
+        </div>
+            <div id="contact">
+                <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 3em; color: rgb(184, 20, 20); text-align: center; padding-top: 30px;"> First step starts from here</h3>
+                <form style="padding-top: 10px; padding-bottom: 30px;" action="mailto:info@sutton.com" method="post">
+                    <table class="ctTable">
+                        <tr>
+                            <th colspan="2" style="font-size: x-large;">Personnel Information</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2"><hr></th>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">First name</td>
+                            <td class="secondCol"><input type="text" id="txtFName" name="txtFName" size="25" tabindex="1" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">Last Name</td>
+                            <td class="secondCol"><input type="text" id="txtLName" name="txtLName" size="25" tabindex="3" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">Phone number</td>
+                            <td class="secondCol"><input type="tel" id="txtNum" name="txtNum" size="30" placeholder="(xxx)-xxx-xxxx" required="required" tabindex="5"></td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">E-mail</td>
+                            <td class="secondCol"><input type="email" id="txtEmail" name="txtEmail" size="30" placeholder="xxx@domainname.ca" required="required" tabindex="7"></td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">Desired Moving Date</td>
+                            <td class="secondCol"><input type="date" id="txtDate" name="txtDate" tabindex="9"></td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">Price Range</td>
+                            <td class="secondCol">0<input type="range" id="points" name="points" min="0" max="10000000">10M</td>
+                        </tr>
+                    </table>
+                    <table class="ctTable">
+                        <tr><th colspan="2" style="font-size: x-large;">Housing Request</th></tr>
+                        <tr>
+                            <th colspan="2"><hr></th>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">Type of property</td>
+                            <td class="secondCol"><select id="propertyType" name="propertyType" multiple="multiple" size="4" tabindex="11">
+                                <option value="Apartment">Apartment</option>
+                                <option value="Condominium">Condominium</option>
+                                <option value="House">House</option>
+                                <option value="TownHouse">Town House</option>
+                                <option value="Other">Other</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">bedroom</td>
+                            <td class="secondCol"><input type="radio" id="numBed" name="bed" value="Bedrooms" tabindex="13">1 or 1+Den
+                            <input type="radio" name="bed" value="2" tabindex="15">2 or 2+Den
+                            <input type="radio" name="bed" value="3" tabindex="17">3  or 3+Den
+                            <input type="radio" name="bed" value="4" tabindex="19">4 or 4+Den
+                            <input type="radio" name="bed" value="more" tabindex="21">more than 5</td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">bedroom</td>
+                            <td class="secondCol"><input type="radio" id="numBath" name="bath" value="Bathrooms" tabindex="23">1
+                            <input type="radio" name="bath" value="2" tabindex="25">2
+                            <input type="radio" name="bath" value="3" tabindex="27">3
+                            <input type="radio" name="bath" value="4" tabindex="29">4
+                            <input type="radio" name="bath" value="more" tabindex="31">more than 5</td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">Parking Lot</td>
+                            <td class="secondCol"><input type="checkbox" id="chkPark" name="Parking" value="yes" tabindex="33">Yes
+                            <input type="checkbox" name="Parking" value="No" tabindex="35">No</td>
+                        </tr>
+                        <tr>
+                            <td class="firstCol">Additional Comments</td>
+                            <td class="secondCol"><textarea id="txtAddCo" cols="50" rows="7" name="txtAdditionalCo" tabindex="37" placeholder="---(Please let us know any inquiry or more Information you may have, etc.)---"></textarea></td>
+                        </tr>
+                    </table>
+                    <p>
+                        <input type="submit" name="btnSubmit" value="Request" tabindex="39">
+                        <input type="reset" name="btnReset" value="Reset" tabindex="41">
+                    </p>
+                </form>
+            </div>
+            <footer>
+                <p id="copyright">&copy; Copyright Centennial College - COMP213 - Individual project -Taejun Jang(301228129)</p>
+            </footer>
+        </body>
+    </html>
+                

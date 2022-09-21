@@ -1,0 +1,8 @@
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\bin\Debug\SalespersonDemo.exe.config
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\bin\Debug\SalespersonDemo.exe
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\bin\Debug\SalespersonDemo.pdb
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\obj\Debug\SalespersonDemo.csproj.AssemblyReference.cache
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\obj\Debug\SalespersonDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\obj\Debug\SalespersonDemo.csproj.CoreCompileInputs.cache
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\obj\Debug\SalespersonDemo.exe
+C:\Users\TaejunJang\Desktop\Web design Semester2\SalespersonDemo\obj\Debug\SalespersonDemo.pdb

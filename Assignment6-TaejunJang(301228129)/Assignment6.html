@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>COMP125-Assignment 6-TaejunJang(301228129)</title>
+    <link rel="stylesheet" href="Assignment6.css" />
+</head>
+<body>
+    <header>
+        <h1>World weather forecast is here!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Assignment6.html">Weather foarecast</a></li>
+            <li>World map</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+    <div id="main">
+        <article>
+            <h2>Find out weather forecast of any city you want!</h2>
+            <label for="city">City: </label><input type="text" name="city" id="city" /><button id="search" class="btn">Search</button>
+            <fieldset>
+                <div class="container">
+                    <h3 id="cityOut"></h3>
+                    <div class="weather-icon"><img src="icons/unknown.png" /></div>
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <p id="wind"></p>
+                </div>
+            </fieldset>
+            <h2>Here is the weather of current location!</h2>
+            <fieldset>
+                <div>
+                    <h3 id="cityOut2"></h3>
+                    <div class="weather-icon1"><img src="icons/unknown.png" /></div>
+                    <p id="description2"></p>
+                    <p id="temp2"></p>
+                    <p id="wind2"></p>
+                </div>
+            </fieldset>
+        </article>
+        <p id="credit" class="credit">Powered by <a href="https://openweathermap.org/">openweathermap</a></p>
+    </div>
+    <footer id="ft">
+        <p id="copyright">&copy; Copyright Centennial College - COMP125 - Assignment6 -Taejun Jang(301228129)</p>
+    </footer>
+    <script src="Assignment6.js"></script>
+</body>
+</html>

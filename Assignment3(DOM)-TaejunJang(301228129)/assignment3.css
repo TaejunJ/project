@@ -1,0 +1,113 @@
+﻿
+body {
+    line-height: 1;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: verdana, arial, helvetica, sans-serif;
+    background-image: url(bg.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    position: relative;
+    text-align: center;
+}
+header {
+    position: relative;
+    color: lightcoral;
+    font-size: 1.8em;
+}
+header h1 {
+   text-align: center;
+   padding: 0.5em;
+}
+#leftarrow {
+    left: 0;
+}
+#rightarrow {
+    right: 0;
+}
+#leftarrow, #rightarrow {
+    background: #696565;
+    color: white;
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+    height: 135px;
+    width: 40px;
+    top: 67px;
+}
+#fiveButton {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    color: lightcoral;
+    text-align: center;
+}
+#fiveButton p {
+   width: 20%;
+   margin: 0 auto;
+   line-height: 2em;
+   background: #696565;
+}
+#leftarrow p, #rightarrow p {
+    position: relative;
+    top: 50%;
+    margin-top: -0.5em;
+}
+figure {
+    position: absolute;
+}
+article{
+    position:relative;
+    display: block;
+    border: none;
+    outline: none;
+}
+#fig2 {
+    z-index: 10;
+    left: 10%;
+    top: 34px;
+}
+
+#fig3 {
+    z-index: 20;
+    left: 50%;
+    margin-left: -240px;
+    top: 0;
+}
+
+#fig4 {
+    z-index: 10;
+    right: 10%;
+    top: 34px;
+}
+figure {
+    position: absolute;
+    -webkit-box-shadow: 10px 0px 5px rgb(50, 50, 50), -10px 0px 5px rgb(50, 50, 50);
+    -moz-box-shadow: 10px 0px 5px rgb(50, 50, 50), -10px 0px 5px rgb(50, 50, 50);
+    box-shadow: 10px 0px 5px rgb(50, 50, 50), -10px 0px 5px rgb(50, 50, 50);
+}
+#favDiv {
+    display: block;
+    width: 100%;
+    position: absolute;
+    margin-top: 500px;
+}
+#favDiv img {
+    margin-right:15px;
+}
+h2 {
+    display: block;
+    position: absolute;
+    margin-top: 450px;
+    color: lightcoral;
+    margin-left: 330px;
+}
+footer{
+    display:block;
+    position:absolute;
+    color:darkgray;
+    text-align:center;
+    margin-top:700px;
+}
+

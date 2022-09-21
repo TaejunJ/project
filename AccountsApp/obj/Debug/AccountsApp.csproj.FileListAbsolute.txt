@@ -1,0 +1,11 @@
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\bin\Debug\AccountsApp.exe.config
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\bin\Debug\AccountsApp.exe
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\bin\Debug\AccountsApp.pdb
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.csproj.AssemblyReference.cache
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.Form1.resources
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.Properties.Resources.resources
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.csproj.GenerateResource.cache
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.csproj.CoreCompileInputs.cache
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.exe
+C:\Users\TaejunJang\Desktop\Programming 2\AccountsApp\obj\Debug\AccountsApp.pdb
